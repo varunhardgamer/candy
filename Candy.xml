@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="build" name="CandyRoms/build" remote="github" revision="c7" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c7" />
+  <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c7" />
+  <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c7" />
+  <project path="system/media" name="CandyRoms/system_media" remote="github" revision="c7" />
+  <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c7" />
+  <project path="candy" name="CandyRoms/candy" remote="github" revision="c7" />
+  <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="github" revision="c7" />
+</manifest>
