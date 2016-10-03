@@ -6,6 +6,7 @@
   <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c7" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c7" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c7" />
+  <project path="frameworks/support" name="CandyRoms/frameworks_support" remote="github" revision="c7" />
   <project path="system/media" name="CandyRoms/system_media" remote="github" revision="c7" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c7" />
   <project path="candy" name="CandyRoms/candy" remote="github" revision="c7" />
