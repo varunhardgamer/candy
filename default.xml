@@ -35,23 +35,29 @@
            fetch="https://github.com/themuppets"
            revision="cm-14.0" />
 
-<!-- Candy Repos -->
+<!-- Candy Repos (check hals section for more) -->
+  <project path="art" name="CandyRoms/art" remote="github" revision="c7" />
   <project path="build" name="CandyRoms/build" remote="github" revision="c7" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="external/skia" name="CandyRoms/external_skia" remote="github" revision="c7" />
   <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c7" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c7" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c7" />
+  <project path="frameworks/opt/net/wifi" name="CandyRoms/frameworks_opt_net_wifi" remote="github" revision="c7" />
+  <project path="frameworks/opt/telephony" name="CandyRoms/frameworks_opt_telephony" remote="github" revision="c7" />
   <project path="frameworks/support" name="CandyRoms/frameworks_support" remote="github" revision="c7" />
+  <project path="system/bt" name="CandyRoms/system_bt"  remote="github" revision="c7" />
+  <project path="system/core" name="CandyRoms/system_core" remote="github" revision="c7" />
   <project path="system/media" name="CandyRoms/system_media" remote="github" revision="c7" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c7" />
+  <project path="packages/services/Telephony" name="CandyRoms/packages_services_Telephony" remote="github" revision="c7" />
   <project path="candy" name="CandyRoms/candy" remote="github" revision="c7" />
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="github" revision="c7" />
 
 <!-- CM Repos -->
 
 <!-- Slim Repos -->
-  <project path="art" name="android_art" remote="Slim" />
   <project path="bionic" name="android_bionic" remote="Slim" />
   <project path="bootable/recovery" name="bootable_recovery" remote="Slim" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="Slim" />
@@ -70,48 +76,34 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="Slim" />
   <project path="external/okhttp" name="android_external_okhttp" remote="Slim" />
   <project path="external/selinux" name="android_external_selinux" remote="Slim" />
-  <project path="external/skia" name="android_external_skia" remote="Slim" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="Slim" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="Slim" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="Slim" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="Slim" />
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="Slim" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="Slim" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="Slim" />
   <project path="frameworks/opt/slim" name="frameworks_opt_slim" remote="Slim" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="Slim" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="Slim" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="Slim" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="Slim" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="Slim" />
-  <project path="libcore" name="android_libcore" remote="Slim" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="Slim" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="Slim" />
   <project path="packages/apps/Browser2" name="packages_apps_Browser2" remote="Slim" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="Slim" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="Slim" />
-  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="Slim" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="Slim" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="Slim" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="Slim" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="Slim" />
-  <project path="packages/apps/Email" name="packages_apps_Email" remote="Slim" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="Slim" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="Slim" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="Slim" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="Slim" />
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="Slim" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="Slim" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="Slim" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="Slim" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="Slim" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="Slim" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="Slim" />
   <project path="packages/services/Mms" name="packages_services_Mms" remote="Slim" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Slim" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="Slim" />
-  <project path="system/bt" name="android_system_bt" remote="Slim" />
-  <project path="system/core" name="android_system_core" remote="Slim" />
   <project path="system/extras" name="android_system_extras" remote="Slim" />
   <project path="system/keymaster" name="android_system_keymaster" remote="Slim" />
   <project path="system/netd" name="android_system_netd" remote="Slim" />
@@ -152,8 +144,8 @@
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="Slim" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="Slim" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="Slim" revision="ng7.0-caf" />
-  <project path="hardware/ril" name="hardware_ril" remote="Slim" />
-  <project path="hardware/ril-caf" name="hardware_ril" remote="Slim" revision="ng7.0-caf" />
+  <project path="hardware/ril" name="CandyRoms/hardware_ril" remote="github" revision="c7" />
+  <project path="hardware/ril-caf" name="CandyRoms/hardware_ril" remote="github" revision="c7-caf" />
 
 <!-- Aosp Repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -471,12 +463,18 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" remote="aosp" />
+  <project path="libcore" name="platform/libcore" remote="aosp" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="aosp" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="aosp" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" remote="aosp" />
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" remote="aosp" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" remote="aosp" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" remote="aosp" />
@@ -497,6 +495,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" remote="aosp" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" remote="aosp" />
@@ -511,6 +510,7 @@
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" remote="aosp" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" remote="aosp" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" remote="aosp" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" remote="aosp" />
