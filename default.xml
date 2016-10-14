@@ -40,6 +40,7 @@
   <project path="build" name="CandyRoms/build" remote="github" revision="c7" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="device/generic/emulatorx86" name="CandyRoms/device_generic_emulatorx86" remote="github" revision="c7" />
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="github" revision="c7" />
   <project path="external/skia" name="CandyRoms/external_skia" remote="github" revision="c7" />
   <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c7" />
