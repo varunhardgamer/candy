@@ -40,6 +40,7 @@
   <project path="build" name="CandyRoms/build" remote="github" revision="c7" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="github" revision="c7" />
   <project path="external/skia" name="CandyRoms/external_skia" remote="github" revision="c7" />
   <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c7" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c7" />
@@ -50,6 +51,7 @@
   <project path="system/bt" name="CandyRoms/system_bt"  remote="github" revision="c7" />
   <project path="system/core" name="CandyRoms/system_core" remote="github" revision="c7" />
   <project path="system/media" name="CandyRoms/system_media" remote="github" revision="c7" />
+  <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="github" revision="c7" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c7" />
   <project path="packages/services/Telephony" name="CandyRoms/packages_services_Telephony" remote="github" revision="c7" />
   <project path="candy" name="CandyRoms/candy" remote="github" revision="c7" />
