@@ -128,6 +128,7 @@
 <!-- Hals -->
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="Slim" />
   <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" remote="Slim" revision="ng7.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="Slim" revision="ng7.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="Slim" revision="ng7.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="Slim" revision="ng7.0-caf-8994" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="Slim" />
@@ -136,6 +137,7 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="Slim" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="Slim" />
   <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" remote="Slim" revision="ng7.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="Slim" revision="ng7.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="Slim" revision="ng7.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="Slim" revision="ng7.0-caf-8994" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="Slim" />
@@ -143,6 +145,7 @@
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="Slim" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="Slim" />
   <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" remote="Slim" revision="ng7.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="Slim" revision="ng7.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="Slim" revision="ng7.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="Slim" revision="ng7.0-caf-8994" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="Slim" />
