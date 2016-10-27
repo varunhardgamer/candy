@@ -52,8 +52,12 @@
   <project path="system/bt" name="CandyRoms/system_bt"  remote="github" revision="c7" />
   <project path="system/core" name="CandyRoms/system_core" remote="github" revision="c7" />
   <project path="system/media" name="CandyRoms/system_media" remote="github" revision="c7" />
+  <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="github" revision="c7" />
+  <project path="packages/apps/Contacts" name="CandyRoms/packages_apps_Contacts" remote="github" revision="c7" />
+  <project path="packages/apps/ContactsCommon" name="CandyRoms/packages_apps_ContactsCommon" remote="github" revision="c7" />
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="github" revision="c7" />
   <project path="packages/apps/PackageInstaller" name="CandyRoms/packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="c7" />
+  <project path="packages/apps/PhoneCommon" name="CandyRoms/packages_apps_PhoneCommon" remote="github" revision="c7" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c7" />
   <project path="packages/services/Telephony" name="CandyRoms/packages_services_Telephony" remote="github" revision="c7" />
   <project path="candy" name="CandyRoms/candy" remote="github" revision="c7" />
@@ -100,7 +104,6 @@
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="Slim" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="Slim" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="Slim" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="Slim" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="Slim" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="Slim" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="Slim" />
@@ -113,7 +116,6 @@
   <project path="system/netd" name="android_system_netd" remote="Slim" />
   <project path="system/qcom" name="android_system_qcom" remote="Slim" />
   <project path="system/security" name="android_system_security" remote="Slim" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="Slim" />
   <project path="system/vold" name="android_system_vold" remote="Slim" />
 
 <!-- CAF repos -->
@@ -480,8 +482,6 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="aosp" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="aosp" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" remote="aosp" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" remote="aosp" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" />
