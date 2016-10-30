@@ -41,6 +41,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/generic/emulatorx86" name="CandyRoms/device_generic_emulatorx86" remote="github" revision="c7" />
+  <project path="external/ant-wireless/ant_native" name="CandyRoms/external_ant-wireless_ant_native" remote="github" revision="c7" />
+  <project path="external/ant-wireless/ant_service" name="CandyRoms/external_ant-wireless_ant_service" remote="github" revision="c7" />
+  <project path="external/ant-wireless/antradio-library" name="CandyRoms/external_ant-wireless_antradio-library" remote="github" revision="c7" />
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="github" revision="c7" />
   <project path="external/skia" name="CandyRoms/external_skia" remote="github" revision="c7" />
   <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c7" />
