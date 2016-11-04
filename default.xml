@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.0.0_r14" />
+           revision="refs/tags/android-7.1.0_r4" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -24,12 +24,12 @@
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
-           revision="staging/cm-14.0" />
+           revision="cm-14.1" />
 
   <remote  name="Slim"
            fetch="git://github.com/SlimRoms"
            review="https://review.slimroms.org/"
-           revision="ng7.0" />
+           revision="ng7.1" />
 
   <remote  name="tm"
            fetch="https://github.com/themuppets"
@@ -60,7 +60,7 @@
   <project path="packages/apps/PhoneCommon" name="CandyRoms/packages_apps_PhoneCommon" remote="github" revision="c7" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c7" />
   <project path="packages/services/Telephony" name="CandyRoms/packages_services_Telephony" remote="github" revision="c7" />
-  <project path="candy" name="CandyRoms/candy" remote="github" revision="c7" />
+  <project path="candy" name="CandyRoms/candy" remote="github" revision="c7.1" />
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="github" revision="c7" />
 
 <!-- CM Repos -->
