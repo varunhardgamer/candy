@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
@@ -122,7 +121,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="slim" />
   <project path="system/vold" name="android_system_vold" remote="slim" />
 
-  <!-- CodeAurora Additions aka hals-->
+  <!-- CodeAurora Additions -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="slim" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="slim" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="slim" />
