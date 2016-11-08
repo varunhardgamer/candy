@@ -26,7 +26,7 @@
            fetch="https://github.com/CyanogenMod"
            revision="staging/cm-14.1" />
 
-  <remote  name="Slim"
+  <remote  name="slim"
            fetch="git://github.com/SlimRoms"
            review="https://review.slimroms.org/"
            revision="ng7.1" />
