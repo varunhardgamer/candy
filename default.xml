@@ -51,8 +51,8 @@
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="github" revision="c7.1" />
 
   <!-- CM Repos -->
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="cm" revision="cm-14.0" />
-  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" revision="cm-14.0" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="cm" revision="cm-14.1" />
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" revision="cm-14.1" />
 
   <!-- Slim -->
   <project path="art" name="android_art" remote="slim" />
