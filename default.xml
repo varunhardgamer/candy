@@ -42,6 +42,7 @@
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="github" revision="c7.1" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c7.1" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c7.1" />
+  <project path="frameworks/av" name="CandyRomsframeworks_av" remote="github" revision="c7.1" />
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="github" revision="c7.1" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c7.1" />
   <project path="packages/apps/Viper4Android" name="CandyRoms/packages_apps_Viper4Android" remote="github" revision="c7.1" />
@@ -74,7 +75,6 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="slim" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="slim" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slim" />
-  <project path="frameworks/av" name="frameworks_av" remote="slim" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="slim" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="slim" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slim" />
