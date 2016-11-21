@@ -48,9 +48,11 @@
   <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c7.1" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c7.1" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c7.1" />
+  <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" remote="github" revision="c7.1" />
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="github" revision="c7.1" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c7.1" />
   <project path="packages/apps/SnapMusic" name="CandyRoms/packages_apps_SnapMusic" remote="github" revision="c7.1" /> <!-- forked from Citrus-CAF/packages_apps_SnapdragonMusic -->
+  <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="github" revision="c7.1" />
   <project path="packages/apps/Viper4Android" name="CandyRoms/packages_apps_Viper4Android" remote="github" revision="c7.1" />
   <project path="system/core" name="CandyRoms/system_core" remote="github" revision="c7.1" />
   <project path="system/extras" name="CandyRoms/system_extras" remote="github" revision="c7.1" />
@@ -96,7 +98,6 @@
   <project path="libcore" name="android_libcore" remote="slim" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="slim" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="slim" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slim" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="slim" />
