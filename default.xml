@@ -50,6 +50,7 @@
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c7.1" />
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="github" revision="c7.1" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c7.1" />
+  <project path="packages/apps/SnapMusic" name="CandyRoms/packages_apps_SnapMusic" remote="github" revision="c7.1" /> <!-- forked from Citrus-CAF/packages_apps_SnapdragonMusic -->
   <project path="packages/apps/Viper4Android" name="CandyRoms/packages_apps_Viper4Android" remote="github" revision="c7.1" />
   <project path="system/core" name="CandyRoms/system_core" remote="github" revision="c7.1" />
   <project path="system/extras" name="CandyRoms/system_extras" remote="github" revision="c7.1" />
