@@ -24,7 +24,7 @@
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
-           revision="staging/cm-14.1" />
+           revision="cm-14.1" />
 
   <remote  name="slim"
            fetch="git://github.com/SlimRoms"
@@ -92,16 +92,7 @@
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="slim" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="slim" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="slim" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="slim" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="slim" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="slim" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="slim" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="slim" />
-  <project path="hardware/ril" name="hardware_ril" remote="slim" />
   <project path="libcore" name="android_libcore" remote="slim" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="slim" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" />
@@ -136,45 +127,54 @@
   <project path="system/vold" name="android_system_vold" remote="slim" />
 
   <!-- CodeAurora Additions -->
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="slim" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="slim" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="slim" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="slim" />
-  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="slim" />
-  <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="slim" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="slim" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" remote="slim" revision="ng7.1-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="hardware_qcom_audio" remote="slim" revision="ng7.1-caf-8937" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" remote="slim" revision="ng7.1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="slim" revision="ng7.1-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="slim" revision="ng7.1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="slim" revision="ng7.1-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" remote="slim" revision="ng7.1-caf-8996" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="slim" revision="ng7.1-caf" />
-  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" remote="slim" revision="ng7.1-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8937" name="hardware_qcom_display" remote="slim" revision="ng7.1-caf-8937" />
-  <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display" remote="slim" revision="ng7.1-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="slim" revision="ng7.1-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="slim" revision="ng7.1-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="slim" revision="ng7.1-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" remote="slim" revision="ng7.1-caf-8996" />
-  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="slim" />
-  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" remote="slim" revision="ng7.1-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8937" name="hardware_qcom_media" remote="slim" revision="ng7.1-caf-8937" />
-  <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media" remote="slim" revision="ng7.1-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="slim" revision="ng7.1-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="slim" revision="ng7.1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="slim" revision="ng7.1-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" remote="slim" revision="ng7.1-caf-8996" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="slim" revision="ng7.1-caf" />
-  <project path="hardware/ril-caf" name="hardware_ril" remote="slim" revision="ng7.1-caf" />
-  <project path="system/qcom" name="android_system_qcom" remote="slim" />
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="slim" />
-  <project path="vendor/qcom/opensource/bluetooth" name="vendor_qcom_opensource_bluetooth" remote="slim" />
-  <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="slim" />
-  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="slim" />
-  <project path="vendor/qcom/opensource/time-services" name="vendor_qcom_opensource_time-services" remote="slim" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="cm" revision="cm-14.1" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="cm" revision="cm-14.1" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="cm" revision="cm-14.1" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="cm" revision="cm-14.1" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="cm" revision="cm-14.1" />
+  <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="cm" revision="cm-14.1" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-14.1" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" revision="cm-14.1" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="cm" revision="cm-14.1" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-14.1" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="cm" revision="cm-14.1-caf" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-14.1" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-14.1" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="cm" revision="cm-14.1" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-14.1" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-14.1" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-14.1" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8996" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-14.1" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" remote="cm" revision="cm-14.1-caf" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-14.1" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="cm" revision="cm-14.1-caf" />
+  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-14.1" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="cm" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/bluetooth" name="android_vendor_qcom_opensource_bluetooth" remote="cm" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="cm" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="cm" revision="cm-14.1" />
 
   <!-- aosp -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
