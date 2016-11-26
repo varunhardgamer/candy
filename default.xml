@@ -40,6 +40,7 @@
            revision="master" />
 
   <!-- Candy -->
+  <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="github" revision="c7.1" /> <!-- forked from Slimroms -->
   <project path="build" name="CandyRoms/build" remote="github" revision="c7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -69,7 +70,6 @@
   <!-- Slim -->
   <project path="art" name="android_art" remote="slim" />
   <project path="bionic" name="android_bionic" remote="slim" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="slim" />
   <project path="external/apache-http" name="android_external_apache-http" remote="slim" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="slim" />
   <project path="external/exfat" name="android_external_exfat" remote="slim" />
