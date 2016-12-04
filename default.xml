@@ -30,7 +30,7 @@
 
   <remote  name="ts"
            fetch="https://github.com/TeamSubstratum"
-           revision="master" />
+           revision="n" />
   
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
@@ -73,7 +73,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="mdalexca/aarch64-linux-android-6.x" groups="pdk,linux,arm" remote="bb" revision="master" />
 
   <!-- Masquerade -->
-  <project path="packages/apps/masquerade" name="masquerade" remote="ts" revision="master" />
+  <project path="packages/apps/masquerade" name="masquerade" remote="ts" revision="n" />
 
   <!-- CM Repos -->
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="cm" revision="cm-14.1" />
