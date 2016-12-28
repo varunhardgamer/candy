@@ -53,7 +53,6 @@
   </project>
   <project path="candy" name="CandyRoms/candy" remote="candy" revision="c7.1" />
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="candy" revision="c7.1" />
-  <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="candy" revision="c7.1" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" revision="c7.1" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="candy" revision="c7.1" />
   <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" remote="candy" revision="c7.1" />
@@ -108,6 +107,7 @@
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="slim" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" remote="slim" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="slim" />
+  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="slim" />
   <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" remote="slim" />
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" remote="slim" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="slim" />
