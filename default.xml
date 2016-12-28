@@ -35,6 +35,9 @@
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
 
+  <remote  name="mario"
+           fetch="https://github.com/ThankYouMario" />
+    
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -75,6 +78,9 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="mdalexca/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="mdalexca/aarch64-linux-android-6.x" groups="pdk,linux,arm" remote="bb" revision="master" />
 
+  <!-- sdclang -->
+  <project path="vendor/qcom/sdclang-3.8/linux-x86" name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="mario" revision="nougat-caf" />
+   
   <!-- Masquerade -->
   <project path="packages/apps/masquerade" name="masquerade" remote="ts" revision="n" />
 
