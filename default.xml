@@ -83,7 +83,7 @@
   <!-- Masquerade -->
   <project path="packages/apps/masquerade" name="masquerade" remote="ts" revision="n" />
 
-  <!-- CM Repos -->
+  <!-- Lineage Repos -->
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="cm" revision="cm-14.1" />
   <project path="packages/apps/SoundRecorder" name="LineageOS/android_packages_apps_SoundRecorder" remote="cm" revision="cm-14.1" />
   <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" remote="cm" revision="cm-14.1" />
@@ -110,7 +110,6 @@
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="slim" />
   <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" remote="slim" />
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" remote="slim" />
-  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="slim" />
   <project path="frameworks/support" name="SlimRoms/frameworks_support" remote="slim" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="slim" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="slim" />
@@ -135,10 +134,7 @@
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="slim" />
   <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="slim" />
   <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="slim" />
-  <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="slim" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="slim" />
-  <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="slim" />
-  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="slim" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="slim" />
   <project path="system/bt" name="SlimRoms/android_system_bt" remote="slim" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="slim" />
@@ -147,15 +143,19 @@
   <project path="system/security" name="SlimRoms/android_system_security" remote="slim" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="slim" />
 
-  <!-- CM -->
+  <!-- Lineage -->
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="cm" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="cm" revision="cm-14.1" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="cm" revision="cm-14.1" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="cm" revision="cm-14.1" />
   <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="cm" revision="cm-14.1" />
   <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="cm" revision="cm-14.1" />
+  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="cm" revision="cm-14.1" />
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="cm" revision="cm-14.1" />
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="cm" revision="cm-14.1" />
+  <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" remote="cm" revision="cm-14.1" />
+  <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" remote="cm" revision="cm-14.1" />
+  <project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" remote="cm" revision="cm-14.1" />
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="cm" revision="cm-14.1" />
   <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8937" />
