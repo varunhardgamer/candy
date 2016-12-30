@@ -14,7 +14,7 @@
            fetch=".."
            review="gerrit.bbqdroid.org" />
 
-  <remote  name="cm"
+  <remote  name="los"
            fetch=".."
            review="review.lineageos.org"
            revision="refs/heads/cm-14.1" />
@@ -84,9 +84,9 @@
   <project path="packages/apps/masquerade" name="masquerade" remote="ts" revision="n" />
 
   <!-- Lineage Repos -->
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="cm" revision="cm-14.1" />
-  <project path="packages/apps/SoundRecorder" name="LineageOS/android_packages_apps_SoundRecorder" remote="cm" revision="cm-14.1" />
-  <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" remote="cm" revision="cm-14.1" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="los" revision="cm-14.1" />
+  <project path="packages/apps/SoundRecorder" name="LineageOS/android_packages_apps_SoundRecorder" remote="los" revision="cm-14.1" />
+  <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" remote="los" revision="cm-14.1" />
 
   <!-- Slim -->
   <project path="art" name="SlimRoms/android_art" remote="slim" />
@@ -144,67 +144,67 @@
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="slim" />
 
   <!-- Lineage -->
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="cm" revision="cm-14.1" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="cm" revision="cm-14.1" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="cm" revision="cm-14.1" />
-  <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="cm" revision="cm-14.1" />
-  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="cm" revision="cm-14.1" />
-  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="cm" revision="cm-14.1" />
-  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="cm" revision="cm-14.1" />
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="cm" revision="cm-14.1" />
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="cm" revision="cm-14.1" />
-  <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" remote="cm" revision="cm-14.1" />
-  <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" remote="cm" revision="cm-14.1" />
-  <project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" remote="cm" revision="cm-14.1" />
-  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="cm" revision="cm-14.1" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" remote="cm" revision="cm-14.1-caf-8996" />
-  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="cm" revision="cm-14.1" />
-  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="cm" revision="cm-14.1-caf" />
-  <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="cm" revision="cm-14.1" />
-  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="cm" revision="cm-14.1" />
-  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8937" name="LineageOS/android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" remote="cm" revision="cm-14.1-caf-8996" />
-  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="cm" revision="cm-14.1" />
-  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="cm" revision="cm-14.1" />
-  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" remote="cm" revision="cm-14.1" />
-  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="cm" revision="cm-14.1" />
-  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8937" name="LineageOS/android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="cm" revision="cm-14.1-caf-8996" />
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="cm" revision="cm-14.1" />
-  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="cm" revision="cm-14.1-caf" />
-  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="cm" revision="cm-14.1" />
-  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="cm" revision="cm-14.1-caf" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="cm" revision="cm-14.1" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="cm" revision="cm-14.1" />
-  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" remote="cm" revision="cm-14.1" />
-  <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" remote="cm" revision="cm-14.1" />
-  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="cm" revision="cm-14.1" />
-  <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" remote="cm" revision="cm-14.1" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="los" revision="cm-14.1" />
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="los" revision="cm-14.1" /> 
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="los" revision="cm-14.1" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="los" revision="cm-14.1" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="los" revision="cm-14.1" />
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="los" revision="cm-14.1" />
+  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="los" revision="cm-14.1" />
+  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="los" revision="cm-14.1" />
+  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="los" revision="cm-14.1" />
+  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="los" revision="cm-14.1" />
+  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="los" revision="cm-14.1-caf" />
+  <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="los" revision="cm-14.1" />
+  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1" />
+  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="los" revision="cm-14.1" />
+  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="los" revision="cm-14.1" />
+  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" remote="los" revision="cm-14.1" />
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1" />
+  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8996" />
+  <project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="los" revision="cm-14.1" />
+  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="los" revision="cm-14.1-caf" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="los" revision="cm-14.1" />
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="los" revision="cm-14.1-caf" />
+  <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" remote="los" revision="cm-14.1" />
+  <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" remote="los" revision="cm-14.1" />
+  <project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" remote="los" revision="cm-14.1" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="los" revision="cm-14.1" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="los" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" remote="los" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" remote="los" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="los" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" remote="los" revision="cm-14.1" />
 
   <!-- aosp -->
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
+  </project>  
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
