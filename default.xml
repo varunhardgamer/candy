@@ -24,10 +24,6 @@
            review="review.slimroms.org"
            revision="refs/heads/ng7.1" />
 
-  <remote  name="ctr"
-           fetch="https://github.com/Citrus-CAF"
-           revision="n" />
-
   <remote  name="tm"
            fetch="https://github.com/TheMuppets"
            revision="cm-14.1" />
@@ -231,9 +227,6 @@
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" groups="qcom" revision="ng7.1-caf" remote="slim" />
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" groups="apps_stk,pdk-fs" remote="slim" />
   <project path="vendor/qcom/opensource/bluetooth" name="SlimRoms/vendor_qcom_opensource_bluetooth" remote="slim" />
-
-  <!-- Citrus -->
-  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
 
   <!-- UBER Toolchains -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x" name="uberroms/aarch64-linux-android-7.x" remote="bb" revision="master" />
