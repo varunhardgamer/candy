@@ -5,7 +5,7 @@
 
   <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
 
-  <project path="build/make" name="CarbonROM/android_build_make" groups="pdk" remote="carbon">
+  <project path="build/make" name="CandyRoms/build_make" groups="pdk" remote="oreo">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
