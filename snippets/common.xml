@@ -21,7 +21,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="lineage"
+  <remote  name="los"
            fetch=".."
            review="review.lineageos.org"
            revision="refs/heads/lineage-15.0"
