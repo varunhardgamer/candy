@@ -28,13 +28,13 @@
            sync-j="32" />
 
   <!-- FIRST: Remove unused/forked AOSP Projects -->
-  <include name="remove.xml" />
+  <include name="snippets/remove.xml" />
 
   <!-- Include forked AOSP repos -->
-  <include name="oreo.xml" />
+  <include name="snippets/oreo.xml" />
 
   <!-- Include CAF repos -->
-  <include name="caf.xml" />
+  <include name="snippets/caf.xml" />
 
   <!-- CandyRoms Projects -->
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="oreo" />
