@@ -24,11 +24,11 @@
   <!-- FIRST: Remove unused/forked AOSP Projects -->
   <include name="remove.xml" />
 
-  <!-- Include forked AOSP -->
-  <include name="carbon-aosp.xml" />
+  <!-- Include forked AOSP repos -->
+  <include name="oreo.xml" />
 
-  <!-- Include CAF -->
-  <include name="carbon-caf.xml" />
+  <!-- Include CAF repos -->
+  <include name="caf.xml" />
 
   <!-- CarbonROM Projects -->
   <project path="packages/apps/Quarks" name="CarbonROM/android_packages_apps_Quarks" remote="carbon" />
