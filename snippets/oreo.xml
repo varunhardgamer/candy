@@ -29,7 +29,7 @@
   <project path="external/wpa_supplicant_8" name="CarbonROM/android_external_wpa_supplicant_8" groups="pdk" remote="carbon" />
 
   <project path="frameworks/av" name="CandyRoms/frameworks_av" groups="pdk" remote="candy" />
-  <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="frameworks/base" name="CandyRoms/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
   <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
 
