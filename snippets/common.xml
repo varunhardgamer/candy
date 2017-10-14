@@ -39,7 +39,4 @@
   <!-- CandyRoms Projects -->
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" />
 
-  <!-- CarbonROM Projects -->
-  <project path="packages/apps/Quarks" name="CarbonROM/android_packages_apps_Quarks" remote="carbon" />
-
 </manifest>
