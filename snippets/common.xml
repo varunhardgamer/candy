@@ -37,6 +37,8 @@
   <include name="snippets/caf.xml" />
 
   <!-- CandyRoms Projects -->
+  <project path="packages/apps/CandyWrappers" name="CandyRoms/packages_apps_CandyWrappers" remote="candy" />
+
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" />
 
 </manifest>
