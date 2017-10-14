@@ -5,18 +5,18 @@
            revision="refs/heads/oreo"
            fetch=".."
            review="gerrit.bbqdroid.org"
-           sync-j="32" />
+           sync-j="16" />
 
   <remote  name="carbon"
            fetch="git://github.com/"
            review="review.carbonrom.org"
            revision="refs/heads/cr-6.0"
-           sync-j="32" />
+           sync-j="16" />
 
   <remote  name="gh"
            fetch="git://github.com/"
            sync-c="true"
-           sync-j="32" />
+           sync-j="16" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -25,7 +25,7 @@
            fetch=".."
            review="review.lineageos.org"
            revision="refs/heads/lineage-15.0"
-           sync-j="32" />
+           sync-j="16" />
 
   <!-- FIRST: Remove unused/forked AOSP Projects -->
   <include name="snippets/remove.xml" />
