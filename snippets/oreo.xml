@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="manifest" name="CandyRoms/candy" groups="pdk" remote="candy" />
+  <project path="candy" name="CandyRoms/candy" groups="pdk" remote="candy" />
 
   <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
 
