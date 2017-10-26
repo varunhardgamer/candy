@@ -14,8 +14,8 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/kati" name="CarbonROM/android_build_kati" groups="pdk,tradefed" remote="carbon"/>
-  <project path="build/soong" name="CarbonROM/android_build_soong" groups="pdk,tradefed" remote="carbon">
+  <project path="build/kati" name="CandyRoms/android_build_kati" groups="pdk,tradefed" remote="candy"/>
+  <project path="build/soong" name="CandyRoms/android_build_soong" groups="pdk,tradefed" remote="candy">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
